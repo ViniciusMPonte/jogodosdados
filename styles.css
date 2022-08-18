@@ -1,0 +1,94 @@
+body {
+  background-color: #393E46;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7vw;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2.7vw;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 70%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.title {
+  display: inline;
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+.wait {
+  visibility: hidden;
+  position: relative;
+}
+
+.flag {
+  width: 7%;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+}
+
+.playButton {
+	box-shadow: 3px 0px 0px 0px #232931;
+	background-color:#4ecca2;
+	border-radius:5px;
+	border:1px solid #232931;
+	display:inline-block;
+	cursor:pointer;
+	color:#232931;
+	font-family: 'Indie Flower', cursive;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+  margin: 50px 0 0;
+}
+.playButton:hover {
+	background-color:#6fd9b6;
+}
+.playButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media only screen and (max-width: 600px) {
+  .playButton, footer {
+    font-size:15px;
+  }
+}   
+
+@media only screen and (max-width: 800px) {
+  .container{
+    width: 100%;
+  }
+}   
